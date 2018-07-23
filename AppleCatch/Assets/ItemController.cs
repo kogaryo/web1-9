@@ -15,6 +15,7 @@ public class ItemController : MonoBehaviour {
 	void Update ()
     {
         transform.Translate(0, this.dropSpeed, 0);
+
         if(transform.position.y<-1.0f)
         {
             Destroy(gameObject);
